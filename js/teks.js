@@ -1,1 +1,1 @@
-document.write("ini seharusnya muncul");
+document.write("ini seharusnya tampil");
