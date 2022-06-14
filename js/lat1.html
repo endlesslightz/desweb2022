@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+		<div id="div1">
+			<p>Ini paragraf 1</p>
+			<p>Ini paragraf 2</p>
+		</div>
+
+
+	<script>
+		const para=document.createElement("p");
+		const node=document.createTextNode("Ini paragraf baru");
+		para.appendChild(node);
+		const element=document.getElementById('div1');
+		element.appendChild(para);
+	</script>
+</body>
+</html>
